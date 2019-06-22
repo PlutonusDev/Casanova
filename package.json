@@ -1,6 +1,6 @@
 {
   "name": "discord.js-trio",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Trio; a framework for Discord.JS.",
 
   "main": "trio.js",
@@ -20,10 +20,10 @@
   "scripts": {
     "pretest": "printf '\\e[34mStarting Trio test...\\e[0m'",
     "test": "node ./test/app.js",
-    "posttest": "printf '\\e[34mFinished testing Trio!\\e[0m'",
+    "posttest": "printf '\n\n\\e[34mFinished testing Trio!\\e[0m'",
 
-    "postinstall": "printf '\\e[34mThank you for trying out Trio!\\e[0m'",
-    "postuninstall": "printf '\\e[34mIf you had any issues with Trio, please contact \\e[0mPlutonus#0001 \\e[34mon Discord.\\e[0m'"
+    "postinstall": "printf '\\e[34mThank you for trying out Trio!\\e[0m\n\n'",
+    "postuninstall": "printf '\\e[34mIf you had any issues with Trio, please contact \\e[0mPlutonus#0001 \\e[34mon Discord.\\e[0m\n\n'"
   },
 
   "dependencies": {
