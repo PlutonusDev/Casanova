@@ -11,3 +11,4 @@
 
 [GitHub](https://github.com/PlutonusDev/Trio)
 [Getting Started](#docsify)
+[Guide](/guide)
