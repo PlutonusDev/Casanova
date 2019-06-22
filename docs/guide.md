@@ -1,3 +1,5 @@
+[< Back](/)
+
 ## Getting Started
 # Create App and Bot Account
 1. Go to the [Discord Developers Application Page](https://discordapp.com/developers/applications/me).
