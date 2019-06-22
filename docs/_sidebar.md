@@ -2,7 +2,6 @@
 - [Installation](/installation)
 - [Example Usage](/example)
 - [Getting Started](/guide)
-- [Create App and Bot Account](/guide/create)
 - [Linux Installation](/guide/linux)
 - [Windows Installation](/guide/windows)
 - [Example Code](/example)
