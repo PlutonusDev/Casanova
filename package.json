@@ -1,10 +1,31 @@
 {
   "name": "discord.js-trio",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Trio; a framework for Discord.JS.",
+
   "main": "trio.js",
-  "author": "PlutonusDev [plutonus.stream@gmail.com]",
+  "author": {
+    "name": "PlutonusDev",
+    "email": "plutonus.stream@gmail.com"
+  },
   "license": "GPL-3.0",
+  
+  "homepage": "https://github.com/PlutonusDev/Trio",
+  "bugs": "https://github.com/PlutonusDev/Trio/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PlutonusDev/Trio.git"
+  },
+
+  "scripts": {
+    "pretest": "printf '\\e[34mStarting Trio test...\\e[0m'",
+    "test": "node ./test/app.js",
+    "posttest": "printf '\\e[34mFinished testing Trio!\\e[0m'",
+
+    "postinstall": "printf '\\e[34mThank you for trying out Trio!\\e[0m'",
+    "postuninstall": "printf '\\e[34mIf you had any issues with Trio, please contact \\e[0mPlutonus#0001 \\e[34mon Discord.\\e[0m'"
+  },
+
   "dependencies": {
     "chalk": "^2.4.2",
     "discord.js": "^11.4.2",
