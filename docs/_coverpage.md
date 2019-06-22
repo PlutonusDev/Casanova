@@ -9,8 +9,8 @@
 - Predictable abstractions, and
 - 100% coverage of the Discord API
 
+[Guide](/guide)
 [GitHub](https://github.com/PlutonusDev/Trio)
 [Getting Started](#docsify)
-[Guide](/guide)
 
 ![color](#3f3f3f)

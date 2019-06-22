@@ -11,6 +11,9 @@
     </p>
 </div>
 
+[Guide](https://plutonusdev.github.io/Trio/#/guide)
+[Getting Started](https://plutonusdev.github.io/Trio/#/)
+
 ## About
 As someone that makes Discord bots on a regular basis, I've found it fairly tedious to have to write out the 'boilerplate' code to get one up and running.
 To circumvent this, I've decided to create Trio, a [Node.JS](https://nodejs.org) package working as a framework, using the powerful [Discord.JS](https://github.com/discordjs/discord.js) library as a backbone.
