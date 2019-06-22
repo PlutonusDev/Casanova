@@ -5,6 +5,9 @@
         <br />
         <img src="https://img.shields.io/github/issues/PlutonusDev/Trio.svg">
         <img src="https://img.shields.io/github/stars/PlutonusDev/Trio.svg">
+        <img src="https://img.shields.io/github/downloads/PlutonusDev/Trio/total.svg">
+        <img src="https://img.shields.io/npm/dw/discord.js-trio.svg">
+        <img src="https://img.shields.io/npm/l/discord.js-trio.svg">
         <img src="https://david-dm.org/PlutonusDev/Trio.svg">
         <br />
         <a href="https://nodei.co/npm/discord.js-trio/"><img src="https://nodei.co/npm/discord.js-trio.png?compact=true"></a>

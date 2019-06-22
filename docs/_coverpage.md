@@ -11,6 +11,6 @@
 
 [Guide](/guide)
 [GitHub](https://github.com/PlutonusDev/Trio)
-[Getting Started](#docsify)
+[Getting Started](#trio)
 
 ![color](#3f3f3f)
