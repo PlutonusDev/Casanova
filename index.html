@@ -11,12 +11,13 @@
 </head>
 
 <body>
-    <div data-app id="main">Please wait... loading.</div>
-    <div id="app"></div>
+    <div id="app">Loading ...</div>
     <script>
         window.$docsify = {
-            el: '#main',
-            coverpage: true
+            auto2top: true,
+            coverpage: true,
+            loadSidebar: true,
+            loadNavbar: true
         }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
