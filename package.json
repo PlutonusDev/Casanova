@@ -17,6 +17,10 @@
     "url": "https://github.com/PlutonusDev/Trio.git"
   },
 
+  "engines": {
+    "node": ">=6.0.0"
+  }
+
   "scripts": {
     "pretest": "printf '\\e[34mStarting Trio test...\\e[0m'",
     "test": "node ./test/app.js",
