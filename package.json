@@ -1,0 +1,14 @@
+{
+  "name": "discord.js-trio",
+  "version": "1.2.1",
+  "description": "Trio; a framework for Discord.JS.",
+  "main": "trio.js",
+  "author": "PlutonusDev [plutonus.stream@gmail.com]",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "^11.4.2",
+    "moment": "^2.23.0",
+    "moment-duration-format": "^2.2.2"
+  }
+}
