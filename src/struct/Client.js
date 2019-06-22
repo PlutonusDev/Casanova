@@ -19,17 +19,18 @@ const logger = require("../util/Logger");
 
 const fs = require("fs");
 const path = require("path");
+const chalk = require("chalk");
 
 const Discord = require("discord.js");
 const wait = require("util").promisify(setTimeout);
 
-logger.log("Dependency check successful!");
+logger.log(`Dependency check ${chalk.green("successful")}!`);
 
 class Client extends Discord.Client {
     constructor(config) {
         super();
         wait(50).then(() => {
-            logger.log("Welcome to Trio!");
+            logger.log(`${chalk.blue("Welcome to Trio!")}`);
 
             this.commands = new Discord.Collection();
             this.categories = [];

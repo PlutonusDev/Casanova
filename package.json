@@ -1,6 +1,6 @@
 {
   "name": "discord.js-trio",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Trio; a framework for Discord.JS.",
   "main": "trio.js",
   "author": "PlutonusDev [plutonus.stream@gmail.com]",
