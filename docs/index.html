@@ -19,7 +19,23 @@
             coverpage: true
         }
     </script>
+    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify-copy-code"></script>
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="//raw.githubusercontent.com/njleonzhang/docsify-edit-on-github/master/index.js"></script>
+
+    <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+        const gitalk = new Gitalk({
+            clientID: 'c037abbf2b53b3d17ad0',
+            clientSecret: 'd843550cad1b4b687a5aceb16b5124095c79a86f',
+            repo: 'Trio',
+            owner: 'PlutonusDev',
+            admin: [],
+            distractionFreeMode: false
+        })
+    </script>
 </body>
 
 </html>
