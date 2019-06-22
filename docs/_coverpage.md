@@ -13,4 +13,4 @@
 [Guide](/guide)
 [GitHub](https://github.com/PlutonusDev/Trio)
 
-![color](#c8c8c8)
+![color](#3f3f3f)
