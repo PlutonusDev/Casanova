@@ -2,6 +2,7 @@
     <br />
     <p>
         <img src="https://i.vgy.me/VhjllM.png">
+        <br />
         <img src="https://img.shields.io/github/issues/PlutonusDev/Trio.svg">
         <img src="https://img.shields.io/github/stars/PlutonusDev/Trio.svg">
         <img src="https://david-dm.org/PlutonusDev/Trio.svg">
