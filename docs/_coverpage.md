@@ -4,10 +4,10 @@
 
 > An idiot-proof framework for Discord.JS.
 
-- Common and understandable syntax and function names,
-- Amazing performance,
-- Predictable abstractions, and
-- 100% coverage of the Discord API
+- Common and understandable syntax and function names.
+- Amazing performance.
+- Predictable abstractions.
+- 100% coverage of the Discord API.
 
 [Guide](/guide)
 [GitHub](https://github.com/PlutonusDev/Trio)
