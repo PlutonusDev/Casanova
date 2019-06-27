@@ -88,6 +88,10 @@ class Client extends Discord.Client {
         });
     }
 
+	set(a, b) {
+		this[a] = b;
+	}
+
     processCommands(rootdir) {
         if(!fs.existsSync(rootdir)) return logger.log(`Supplied commands directory does not exist: ${rootdir}`, "warn");
         fs.readdir(rootdir, (err, dirs) => {
@@ -159,7 +163,7 @@ class Client extends Discord.Client {
         try {
             command.file.execute(this, msg, args);
         }catch(err) {
-            logger.log(`Error occured in command: ${command.name}`);
+            logger.log(`Error occured in command: ${command.file.name}:\n\n${err}`);
         }
     }
 }
