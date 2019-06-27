@@ -121,14 +121,15 @@ class Client extends Discord.Client {
     isCommand(msg) {
         if(!msg.content.startsWith(this.config.prefix)) return false;
         let cmd = msg.content.slice(this.config.prefix.length).split(/ +/).shift().toLowerCase();
-        return this.commands.has(cmd);
+		if(this.commands.has(cmd) || this.commands.find(c => c.file.aliases && c.file.aliases.includes(cmd))) return true;
+		return false;
     }
 
     runCommand(msg) {
         let args = msg.content.slice(this.config.prefix.length).split(/ +/);
         let cmd = args.shift().toLowerCase();
 		let command = this.commands.get(cmd)
-		|| this.commands.find(c => c.file.aliases && c.file.aliases.includes(cmd));;
+		|| this.commands.find(c => c.file.aliases && c.file.aliases.includes(cmd));
 
         if(command.adminOnly) {
             if(!msg.member.hasPermission("KICK_MEMBERS")) {
