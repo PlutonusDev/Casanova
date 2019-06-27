@@ -127,7 +127,8 @@ class Client extends Discord.Client {
     runCommand(msg) {
         let args = msg.content.slice(this.config.prefix.length).split(/ +/);
         let cmd = args.shift().toLowerCase();
-        let command = this.commands.get(cmd);
+		let command = this.commands.get(cmd)
+		|| this.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));;
 
         if(command.adminOnly) {
             if(!msg.member.hasPermission("KICK_MEMBERS")) {
