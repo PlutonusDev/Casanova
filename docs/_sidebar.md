@@ -4,6 +4,5 @@
 - [Getting Started](/guide)
 - [Linux Installation](/guide/linux)
 - [Windows Installation](/guide/windows)
-- [Example Code](/example)
 - [Links](/links)
 - [Help and Support](/support)
