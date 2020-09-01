@@ -1,5 +1,5 @@
 const {dependencies} = require("../../package.json");
-const process = process;
+let process;
 let depCheck = 0;
 
 Object.keys(dependencies).forEach((dep) => {
