@@ -1,5 +1,5 @@
 ## Installation
-**Node.js 10.0.0 or newer is required.**  
+**Node.js 12.0.0 or newer is required.**  
 Ignore any warnings about unmet peer dependencies, as they're all optional.
 
 ### Voice Support

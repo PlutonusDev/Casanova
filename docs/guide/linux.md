@@ -1,6 +1,6 @@
 # Linux Installation
 Install the following through your package manager:
-- [nodejs](https://nodejs.org/en/download/package-manager/) (Version 6.X.X^ required)
+- [nodejs](https://nodejs.org/en/download/package-manager/) (Version 12.X.X^ required)
 
 Once you have that installed, create a folder for your project and install Trio:
 `mkdir mybot && cd mybot`

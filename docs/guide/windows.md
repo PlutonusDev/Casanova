@@ -1,6 +1,6 @@
 # Windows Installation
 Install the following software:
-- nodejs from [the downloads page](https://nodejs.org/en/download/) (Version 6.X.X^ required)
+- nodejs from [the downloads page](https://nodejs.org/en/download/) (Version 12.X.X^ required)
 
 If you need voice support, you will also need 2 more things:
 - FFMPEG, which is available [on this page](http://adaptivesamples.com/how-to-install-ffmpeg-on-windows/)
