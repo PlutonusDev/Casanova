@@ -8,6 +8,7 @@
         <img src="https://img.shields.io/npm/dw/discord.js-trio.svg">
         <img src="https://img.shields.io/npm/l/discord.js-trio.svg">
         <img src="https://img.shields.io/github/last-commit/PlutonusDev/Trio.svg">
+        <img src="https://app.codacy.com/project/badge/Grade/00640d1ab0b94a75a2f2994115e43f60">
         <img src="https://david-dm.org/PlutonusDev/Trio.svg">
         <br />
         <a href="https://nodei.co/npm/discord.js-trio/"><img src="https://nodei.co/npm/discord.js-trio.png?compact=true"></a>
