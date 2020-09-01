@@ -1,6 +1,6 @@
 ![logo](https://camo.githubusercontent.com/3bf3bfdcf2288672876c33e72de48c1487aeb389/68747470733a2f2f692e7667792e6d652f56686a6c6c4d2e706e67)
 
-# Trio <small>1.2.5</small>
+# Trio <small>1.4.0</small>
 
 > An idiot-proof framework for Discord.JS.
 
