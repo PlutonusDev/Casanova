@@ -60,4 +60,4 @@ class TrioClient extends Client {
 
 }
 
-module.exports = Client;
+module.exports = TrioClient;

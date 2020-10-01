@@ -2,7 +2,7 @@ const Trio = require("../");
 const config = require("./data/config");
 const wait = require("util").promisify(setTimeout);
 
-const Client = new Trio.Client(config)
+const Client = new Trio.TrioClient(config)
 const token = config.auth["bot-token"];
 
 Client.login(token);
