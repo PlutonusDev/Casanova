@@ -19,12 +19,12 @@ if (depCheck > 0) {
 
 const logger = require("../util/Logger");
 
-const Discord = require("discord.js"),
+const {Client} = require("discord.js"),
 	wait = require("util").promisify(setTimeout);
 
 logger.log("Dependency check successful!");
 
-class Client extends Discord.Client {
+class TrioClient extends Client {
 	constructor (config) {
 		super();
 		wait(50).then(() => {
@@ -32,6 +32,8 @@ class Client extends Discord.Client {
 
 			this.config = config || false;
 			this.logger = logger;
+
+			this.on("error", (e) => logger.log(`Error: ${e}`))
 
 			if (!this.config) {
 				logger.log("No configuration supplied, using defaults.");
