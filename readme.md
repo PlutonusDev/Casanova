@@ -9,8 +9,6 @@
         <img src="https://img.shields.io/npm/l/casanova.svg">
         <img src="https://img.shields.io/github/last-commit/PlutonusDev/Casanova.svg">
         <img src="https://app.codacy.com/project/badge/Grade/7d860a846079469aa589d9d10ee70ef9">
-        <br />
-        <a href="https://nodei.co/npm/casanova/"><img src="https://nodei.co/npm/casanova.png?compact=true"></a>
     </p>
 </div>
 
@@ -24,8 +22,7 @@
 4.  [Links](#links)
 5.  [Help and Support](#support)
 
-[Guide](https://plutonusdev.github.io/Casanova/#/guide)
-[Getting Started](https://plutonusdev.github.io/Casanova/#/)
+> Please note, this will be undergoing rewrites often. This information is **NOT** correct.
 
 <a name="about"></a>
 ## About
