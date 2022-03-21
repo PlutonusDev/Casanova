@@ -1,0 +1,28 @@
+{
+  "name": "casanova",
+  "version": "0.0.2",
+  "description": "A powerful, fully typed framework for Discord.js.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/PlutonusDev/Casanova",
+  "author": "PlutonusDev <joshua@plutonus.dev>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts . --fix",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "prepublish": "yarn format && yarn lint && yarn build"
+  },
+  "private": false,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
